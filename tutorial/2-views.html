@@ -143,7 +143,7 @@ var commentView = new CommentView({ model: comment });
  */
 
 // Append the view to the page. This is why we returned html from `render`:
-// $('body').append(commentView.render());
+$('body').append(commentView.render());
 
 /* The number of votes should be 0.
  * We set that as the initial default value in the comment model.
